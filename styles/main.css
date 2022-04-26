@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoimage{
+    max-width: 150px;
+    width: 100%;
+    margin: 1em;
+}
+.hero{
+    height: 100vh;
+    background-color: darkgreen;
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+nav{
+    display: flex;
+}
+nav div{
+    margin: 0 1em;
+    font-size: 110%;
+    font-weight: 700;
+}
+nav a{
+    color: white;
+}
+nav a:link, nav a:visited{
+    text-decoration: none;
+}
+nav a:hover, nav:visited{
+    text-decoration: underline;
+    color: fuchsia;
+}
+.title-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 40vh 0 0 1vw;
+}
+h1{
+    font-size: 400%;
+    letter-spacing: 25px;
+    color: fuchsia;
+    outline: 3px solid fuchsia;
+}
+.sales-points{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sales-point{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+}
+.cta{
+    background-color: darkgreen;
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-contents{
+    width: 35vw;
+    height: 15vw;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.cta-contents p{
+    text-align: center;
+}
+.btn{
+    background-color: darkgreen;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 1px grey;
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    padding: 40px 0;
+    color: white;
+}
+footer p{
+    text-align: center;
+}
+
